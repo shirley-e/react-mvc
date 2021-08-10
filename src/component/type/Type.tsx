@@ -5,5 +5,5 @@ export enum FilterType {
 }
 
 export enum EnterType {
-  ENTER_TYPE = "enter",
+  ENTER_TYPE = "Enter",
 }

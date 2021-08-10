@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { FilterType } from "./type/FilterType";
+import React from "react";
+import { FilterType } from "./type/Type";
 
 interface FooterProps {
   completedLength: number;

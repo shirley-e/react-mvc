@@ -3,7 +3,7 @@ import React from "react";
 interface HeaderProps {
   text: string;
   onChange: (...args: any[]) => any;
-  onKeyUp?: (...args: any[]) => any;
+  onKeyUp: (...args: any[]) => any;
 }
 
 function Header({ text, onChange, onKeyUp }: HeaderProps) {
